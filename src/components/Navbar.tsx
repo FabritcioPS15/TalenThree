@@ -102,14 +102,15 @@ const Navbar: React.FC = () => {
               whileTap={{ scale: 0.95 }}
               className="flex items-center"
             >
-              <motion.img 
-                src={Logo} 
-                alt="TalenThree Logo" 
-                className="h-10 w-10 object-contain"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ delay: 0.1 }}
-              />
+<motion.img 
+  src={Logo} 
+  alt="TalenThree Logo" 
+  className="h-10 w-10 object-contain filter invert brightness-0"
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  transition={{ delay: 0.1 }}
+/>
+
               <motion.span 
                 className="ml-2 text-xl font-bold text-white"
                 initial={{ opacity: 0, x: -5 }}
