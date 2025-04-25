@@ -116,7 +116,7 @@ const Navbar: React.FC = () => {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.15 }}
               >
-                TalenThree
+                Talenthree
               </motion.span>
             </motion.div>
           </Link>
