@@ -18,17 +18,16 @@ const HomePage: React.FC = () => {
             <div className="lg:w-1/2 mb-12 lg:mb-0">
               <div className="animate-fadeInUp">
                 <span className="inline-block bg-purple-600/80 text-white text-sm px-4 py-2 rounded-full mb-6 font-medium shadow-lg">
-                  ✨ Transformación Profesional
+                  Transformación Profesional
                 </span>
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-                  <span className="text-purple-300">Domina</span> habilidades clave y{" "}
-                  <span className="text-purple-300">destaca</span> en tu carrera
+                  <span className="text-purple-300">IMPULSA TU TALENTO</span> , CRECE{" "}
+                  <span className="text-purple-300">, TRANSFORMA</span> Y DESTACA TU ORGANIZACIÓN
                 </h1>
               </div>
               
               <p className="text-lg md:text-xl mb-8 text-purple-100 max-w-lg animate-fadeInUp delay-100">
-                Nuestros programas ejecutivos están diseñados para catapultar tu crecimiento profesional con metodologías innovadoras y docentes de primer nivel.
-              </p>
+              Elige el curso que fortalecerá tu desarrollo profesional y haz que tu empresa alcance su máximo potencial.              </p>
               
               <div className="flex flex-col sm:flex-row gap-4 animate-fadeInUp delay-200">
                 <Button size="lg" className="bg-purple-500 hover:bg-purple-600 hover:scale-[1.02] transition-transform shadow-lg shadow-purple-500/30">
@@ -67,73 +66,73 @@ const HomePage: React.FC = () => {
         </div>
       </section>
 
-      {/* Benefits Section */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-6">
-          <div className="text-center mb-16 animate-fadeIn">
-            <span className="inline-block bg-purple-100 text-purple-800 text-sm px-4 py-2 rounded-full mb-4 font-medium shadow-md">
-              ¿Por qué elegirnos?
-            </span>
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Más que <span className="text-purple-600">cursos</span>, una{" "}
-              <span className="text-purple-600">experiencia transformadora</span>
-            </h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Diseñamos cada detalle para que tu aprendizaje sea efectivo, práctico y aplicable inmediatamente en tu trabajo.
+    {/* Benefits Section */}
+<section className="py-20 bg-white">
+  <div className="container mx-auto px-6">
+    <div className="text-center mb-16 animate-fadeIn">
+      <span className="inline-block bg-purple-100 text-purple-800 text-sm px-4 py-2 rounded-full mb-4 font-medium shadow-md">
+        ¿Por qué elegirnos?
+      </span>
+      <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+        Más que <span className="text-purple-600">cursos</span>, una{" "}
+        <span className="text-purple-600">experiencia transformadora</span>
+      </h2>
+      <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+        Diseñamos cada detalle para que tu aprendizaje sea efectivo, práctico y aplicable inmediatamente en tu trabajo.
+      </p>
+    </div>
+    
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="bg-gradient-to-b from-white to-purple-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 animate-fadeInUp delay-100 border-l-4 border-purple-500">
+        <div className="flex items-start mb-6">
+          <div className="bg-purple-100 p-3 rounded-lg shadow-md">
+            <BadgeCheck className="h-8 w-8 text-purple-600" />
+          </div>
+          <div className="ml-6">
+            <h3 className="text-xl font-bold text-gray-800 mb-3">
+              Certificación de valor
+            </h3>
+            <p className="text-gray-600">
+              Reconocimiento que respalda tu crecimiento y mejora tu empleabilidad.
             </p>
           </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-gradient-to-b from-white to-purple-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 animate-fadeInUp delay-100 border-l-4 border-purple-500">
-              <div className="flex items-start mb-6">
-                <div className="bg-purple-100 p-3 rounded-lg shadow-md">
-                  <Zap className="h-8 w-8 text-purple-600 animate-pulse" />
-                </div>
-                <div className="ml-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">
-                    Aprendizaje acelerado
-                  </h3>
-                  <p className="text-gray-600">
-                    Metodología diseñada para maximizar tu retención y aplicación práctica en el menor tiempo posible.
-                  </p>
-                </div>
-              </div>
-            </div>
+        </div>
+      </div>
 
-            <div className="bg-gradient-to-b from-white to-purple-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 animate-fadeInUp delay-200 border-l-4 border-indigo-500">
-              <div className="flex items-start mb-6">
-                <div className="bg-indigo-100 p-3 rounded-lg shadow-md">
-                  <Users className="h-8 w-8 text-indigo-600 animate-pulse delay-100" />
-                </div>
-                <div className="ml-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">
-                    Networking de alto nivel
-                  </h3>
-                  <p className="text-gray-600">
-                    Conecta con profesionales ambiciosos como tú y expande tus oportunidades de negocio.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-gradient-to-b from-white to-purple-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 animate-fadeInUp delay-300 border-l-4 border-violet-500">
-              <div className="flex items-start mb-6">
-                <div className="bg-violet-100 p-3 rounded-lg shadow-md">
-                  <Clock className="h-8 w-8 text-violet-600 animate-pulse delay-200" />
-                </div>
-                <div className="ml-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">
-                    Flexibilidad ejecutiva
-                  </h3>
-                  <p className="text-gray-600">
-                    Accede cuando quieras desde cualquier dispositivo sin sacrificar la calidad del aprendizaje.
-                  </p>
-                </div>
-              </div>
-            </div>
+      <div className="bg-gradient-to-b from-white to-purple-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 animate-fadeInUp delay-200 border-l-4 border-indigo-500">
+        <div className="flex items-start mb-6">
+          <div className="bg-indigo-100 p-3 rounded-lg shadow-md">
+            <Users className="h-8 w-8 text-indigo-600" />
+          </div>
+          <div className="ml-6">
+            <h3 className="text-xl font-bold text-gray-800 mb-3">
+              Acompañamiento personalizado
+            </h3>
+            <p className="text-gray-600">
+              Seguimiento y asesoría para aplicar lo aprendido en tu entorno laboral.
+            </p>
           </div>
         </div>
-      </section>
+      </div>
+
+      <div className="bg-gradient-to-b from-white to-purple-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 animate-fadeInUp delay-300 border-l-4 border-violet-500">
+        <div className="flex items-start mb-6">
+          <div className="bg-violet-100 p-3 rounded-lg shadow-md">
+            <BookOpen className="h-8 w-8 text-violet-600" />
+          </div>
+          <div className="ml-6">
+            <h3 className="text-xl font-bold text-gray-800 mb-3">
+              Inglés para el trabajo
+            </h3>
+            <p className="text-gray-600">
+              Aprenderás técnicas de negociación, mejorando tu empleabilidad y proyección profesional.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* Courses Section */}
       <section className="py-20 bg-purple-50">
@@ -145,11 +144,11 @@ const HomePage: React.FC = () => {
               </span>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
                 Transforma tu carrera con{" "}
-                <span className="text-purple-600">nuestros cursos más populares</span>
+                <span className="text-purple-600">nuestros cursos disponibles</span>
               </h2>
             </div>
             <Button variant="outline" className="border-purple-500 text-purple-600 hover:bg-purple-50 hover:scale-[1.02] transition-transform">
-              Ver todos los programas
+              Ver todos los cursos
               <ArrowRight className="w-5 h-5 ml-2" />
             </Button>
           </div>
